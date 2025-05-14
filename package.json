@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/omekeuchechi/myteacherTechHub_web_page.git",
   "name": "my-react-app",
+  "homepage": "https://github.com/omekeuchechi/myteacherTechHub_web_page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,8 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "postdeploy": "npm run deploy",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
