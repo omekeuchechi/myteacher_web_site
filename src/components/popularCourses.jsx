@@ -10,8 +10,8 @@ const PopularCourses = () => {
         <section id="popular-courses" className="fade-in">
             <div className="containers">
                 <div className="section-header2">
+                    <h2>Our Courses</h2>
                     <p className="section-subtitle">Specializations and Professional Certificates</p>
-                    <h2>Most Popular Courses</h2>
                     <p>Explore our most popular programs, get job ready for an in-demand career</p>
                 </div>
                 <div className="course-grid">

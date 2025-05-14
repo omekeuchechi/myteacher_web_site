@@ -29,7 +29,7 @@ return (
                     App Development, Python, Content Creation, Digital Marketing, Project Management, 
                     Virtual Assistant, AI (Artificial Intelligence), and much more.
                 </p>
-                <a href="#" className="btn">Contact us to enroll</a>
+                <a href="#" className="btn"> Enroll now</a>
             </div>
         </div>
     );

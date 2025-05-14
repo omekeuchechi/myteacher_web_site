@@ -45,7 +45,7 @@ const Services = () => {
         <section id="services-section" className="fade-in" ref={sectionRef}>
             <div className="containers">
                 <div className="section-header">
-                    <h2>Our Other Services</h2>
+                    <h2>Our Services</h2>
                     <p>
                         Beyond our courses, we offer additional services to support your tech career
                         journey from start to finish.

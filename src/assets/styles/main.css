@@ -10,9 +10,12 @@
 
 :root {
     /* Fixed invalid comments and formatting */
-    --primary-color: #3498db;
+    /* --primary-color: #3498db; */
+    /* --primary-color: #0583f8d2; */
+    --primary-color: #086ccae1;
     --primary-color-2: #3498db85;
-    --secondary-color: #008ed6;
+    /* --secondary-color: #086ccad7; */
+    --secondary-color: #086cca;
     --text-color: #000;
     --text-color-gray: #4b4545;
     --text-color-light: #fff;
@@ -59,7 +62,7 @@ body {
     width: 100%;
     min-height: 70vh;
     padding: 50px;
-    background-color: var(--primary-color-2);
+    background-color: var(--primary-color);
     position: relative;
     display: flex;
     align-items: center;
@@ -87,7 +90,7 @@ body {
 }
 
 .hero-section .hero-content > .btn {
-    padding: 1.6rem 3rem;
+    padding: 3rem 3rem;
     border-radius: 50px;
     background-color: var(--text-color-light);
     color: var(--secondary-color);

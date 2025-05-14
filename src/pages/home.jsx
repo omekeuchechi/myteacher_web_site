@@ -18,6 +18,7 @@ import FunTech from "../components/funTech";
 import WhatAppInfo from "../components/whatappInfo";
 import AboutCom from "../components/aboutComponent/aboutBody";
 import ContactUs from "../components/contactUs";
+import Testimonial from "../components/testimonial";
 
 function Home() {
 
@@ -50,18 +51,19 @@ useEffect(() => {
             <Nav />
             <HeroSection />
             <Main /> 
-            <DigitalSkills />
+            {/* <DigitalSkills /> */}
             <PopularCourses />
-            <AboutCom />
+            {/* <AboutCom /> */}
             <Services />
             <Faq /> 
             <TechRoadMap />
             <FunTech />
             <AiSection />
-            <ContactUs />
             <Gallary />
             <Testimony />
             <WhatAppInfo />
+            <Testimonial />
+            <ContactUs />
             <Footer />
         </>
     )
