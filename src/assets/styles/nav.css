@@ -1,0 +1,111 @@
+.navbar {
+    background-color: var(--primary-color-2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    font-size: 2rem;
+    color: var(--text-color-light);
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar .logo > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-right: 1rem;
+}
+
+.navbar .menu-icon {
+    color: var(--text-color-dark);
+    display: none;
+    font-size: 2rem;
+}
+
+.navbar > ul {
+    display: inline-flex;
+    gap: 2rem;
+}
+
+.navbar > ul > li > a {
+    font-size: 1.5rem;
+    color: var(--text-color-light);
+    cursor: pointer;
+    font-weight: 800;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar > ul > .nav-link-hide {
+    display: none;
+}
+
+.navbar > ul > li:hover {
+    color: var(--text-color-dark);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar > .auth {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar > .auth > a {
+    font-size: 1.6rem;
+    color: var(--text-color-light);
+    cursor: pointer;
+    font-weight: 800;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar > .auth > a:hover {
+    color: var(--secondary-color);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar > .auth > a:nth-child(1) {
+    background-color: var(--text-color-light);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: var(--primary-color);
+    font-weight: 800;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar > .auth > a:nth-child(1):hover {
+    background-color: var(--primary-color);
+    color: var(--text-color-light);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar > .auth > a:nth-child(2) {
+    background-color: var(--secondary-color);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: var(--text-color-light);
+    font-weight: 800;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar > .auth > a:nth-child(2):hover {
+    background-color: var(--text-color-light);
+    color: var(--secondary-color);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.navbar > .auth-btn{
+    display: none;
+}
